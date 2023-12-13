@@ -41,23 +41,27 @@ const totalImages = frontmatter.challenge_images.length;
                     ) : null }
                 </div>
             </section>
-            {frontmatter.video_url !== '' ? (
+            {frontmatter.main_url.slice(((frontmatter.main_url.lastIndexOf(".") - 1) >>> 0) + 2) === 'mp4' ? (
                 <section class="bg-white-100 px-6 py-6 sm:px-11 sm:py-12">
                     <video class="w-full h-full bg-white-100 rounded-lg sm:rounded-2xl lg:rounded-3xl shadow-custom" autoplay="true" muted="true" loop="true">
-                        <source src={frontmatter.video_url} type="video/mp4">
+                        <source src={frontmatter.main_url} type="video/mp4">
                     </video>
                 </section>
             ) : (
-                <section class="bg-white-100 px-6 py-6 sm:px-11 sm:py-12">
-                    <img src={`../${frontmatter.placeholder_main}`} class="w-full h-full bg-white-100 rounded-lg sm:rounded-2xl lg:rounded-3xl shadow-custom">
-                </section>
+                <img src={`../${frontmatter.main_url}`} class="w-full h-full object-cover">
             ) }
             <section class="w-full h-min px-6 py-9 sm:px-11 sm:py-[100px] flex flex-col md:flex-row lg:grid lg:grid-cols-2 gap-7">
                 <h2 class="text-black text-mh2 sm:text-h2 md:w-3/6 lg:w-full">Challenge</h2>
-                <h3 class="text-black text-pn">{frontmatter.challenge_text}</h3>
+                <div class="flex flex-col gap-5">
+                    {frontmatter.challenge_text.map((text) => (
+                        <h3 class="text-black text-pl">{text}</h3>
+                    ))}
+                </div>
             </section>
             <section class="w-full flex flex-col gap-7">
-                <img src={`../${frontmatter.challenge_image}`} alt="Placeholder" class="h-full w-auto object-cover" />
+                {frontmatter.challenge_image !== '' ? (
+                    <img src={`../${frontmatter.challenge_image}`} alt="Placeholder" class="h-full w-auto object-cover" />
+                ) : null }
                 <div class="w-full flex flex-col md:grid grid-cols-2 sm:gap-7 sm:px-9 md:px-11">
                     {frontmatter.challenge_images.map((image, index) => (
                         <img src={`../${image}`} alt="Placeholder" class={ index === totalImages && totalImages % 2 !== 0 ? 'col-span-2 min-h-[450px] h-full object-cover sm:rounded-2xl' : 'col-span-1 min-h-[450px] h-full object-cover sm:rounded-2xl'} />
@@ -66,7 +70,11 @@ const totalImages = frontmatter.challenge_images.length;
             </section/>
             <section class="w-full h-min px-6 py-9 sm:px-11 sm:py-[100px] flex flex-col md:flex-row lg:grid lg:grid-cols-2 gap-7">
                 <h2 class="text-black text-mh2 sm:text-h2 md:w-3/6 lg:w-full">Solution</h2>
-                <h3 class="text-black text-pn">{frontmatter.solution_text}</h3>
+                <div class="flex flex-col gap-5">
+                    {frontmatter.solution_text.map((text) => (
+                        <h3 class="text-black text-pl">{text}</h3>
+                    ))}
+                </div>
             </section>
             <section class="w-full">
                 <img src={`../${frontmatter.solution_image}`} alt="Placeholder" class="h-auto w-full object-cover" />

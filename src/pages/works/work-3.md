@@ -7,7 +7,7 @@ page_description: 'Discovery project'
 link: ''
 labels: ['UX/UI Design', 'UX/UI Design']
 placeholder_main: '../public/works/work-3-placeholder-1.jpg'
-video_url: ''
+main_url: '../public/works/work-3-placeholder-1.jpg'
 # File
 slug: 'work-3'
 index: 3

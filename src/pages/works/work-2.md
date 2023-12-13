@@ -1,25 +1,33 @@
 ---
 
 layout: '../../layouts/WorkLayout.astro'
-title: 'Proud'
-description: "Infokrasa is a cutting-edge e-commerce platform with mobile application that is propelling Infokrasa's online presence to new heights."
-page_description: 'Proud project'
+title: 'Energy Monitoring App'
+description: "Developed an Energy Monitoring App, a cutting-edge project focused on providing advanced solutions 
+for energy consumption tracking and optimization. 
+Due to the nature of the project, specific details 
+are protected under a NDA."
+page_description: 'Energy Monitoring App project'
 link: ''
-labels: ['UX/UI Design', 'UX/UI Design']
+labels: ['UX/UI Design', 'Mobile App']
 placeholder_main: '../public/works/work-2-placeholder-1.jpg'
-video_url: ''
+main_url: '../public/works/work-2-placeholder-2.jpg'
 # File
 slug: 'work-2'
 index: 2
 # Challenge
-challenge_text: "The challenge in this project was to navigate the complexities of diverse user needs, requiring a design approach that would accommodate various preferences and ensure inclusivity. Streamlining intricate user journeys within the mobile app posed a significant hurdle, prompting a redesign focused on simplifying navigation and improving overall user experience."
-challenge_image: '../public/works/work-1-placeholder-2.jpg'
-challenge_images: ['../public/works/work-1-placeholder-3.jpg', 
-                   '../public/works/work-1-placeholder-4.jpg', 
-                   '../public/works/work-1-placeholder-5.jpg', 
-                   '../public/works/work-1-placeholder-6.jpg']
+challenge_text: ["Designing an intuitive user interface and implementing seamless functionality 
+for the Energy Monitoring App presented a significant challenge. Balancing real-time energy tracking with user-friendly features required meticulous planning to ensure 
+a smooth and efficient experience. Additionally, addressing the diverse needs of users and integrating advanced optimization solutions posed complexities that demanded innovative solutions."]
+challenge_image: ''
+challenge_images: ['../public/works/work-2-placeholder-3.jpg', 
+                   '../public/works/work-2-placeholder-4.jpg', 
+                   '../public/works/work-2-placeholder-5.jpg', 
+                   '../public/works/work-2-placeholder-6.jpg']
 # Solution
-solution_text: "The challenge in this project was to navigate the complexities of diverse user needs, requiring a design approach that would accommodate various preferences and ensure inclusivity. Streamlining intricate user journeys within the mobile app posed a significant hurdle, prompting a redesign focused on simplifying navigation and improving overall user experience."
-solution_image: '../public/works/work-1-placeholder-7.jpg'
+solution_text: ["To overcome the challenges, we adopted a user-centric design approach, prioritizing simplicity without compromising on functionality. We implemented an intuitive interface with clear visualizations, making real-time energy data easily understandable for users.", "Collaborating closely with stakeholders and conducting usability testing allowed 
+us to refine the app's features, ensuring it met the diverse needs of users. 
+Advanced optimization solutions were seamlessly integrated, providing users 
+with a comprehensive and efficient tool for energy monitoring and management."]
+solution_image: '../public/works/work-2-placeholder-7.jpg'
 
 ---
