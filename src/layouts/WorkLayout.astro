@@ -64,7 +64,7 @@ const totalImages = frontmatter.challenge_images.length;
                 ) : null }
                 <div class="w-full flex flex-col md:grid grid-cols-2 sm:gap-7 sm:px-9 md:px-11">
                     {frontmatter.challenge_images.map((image, index) => (
-                        <img src={`../${image}`} alt="Placeholder" class={ index === totalImages && totalImages % 2 !== 0 ? 'col-span-2 min-h-[450px] h-full object-cover sm:rounded-2xl' : 'col-span-1 min-h-[450px] h-full object-cover sm:rounded-2xl'} />
+                        <img src={`../${image}`} alt="Placeholder" class={ index === totalImages && totalImages % 2 !== 0 ? 'col-span-2 h-full object-cover sm:rounded-2xl' : 'col-span-1 h-full object-cover sm:rounded-2xl'} />
                     ))}
                 </div>
             </section/>
@@ -76,9 +76,11 @@ const totalImages = frontmatter.challenge_images.length;
                     ))}
                 </div>
             </section>
-            <section class="w-full">
-                <img src={`../${frontmatter.solution_image}`} alt="Placeholder" class="h-auto w-full object-cover" />
-            </section/>
+            {frontmatter.challenge_image !== '' ? (
+                <section class="w-full">
+                    <img src={`../${frontmatter.solution_image}`} alt="Placeholder" class="h-auto w-full object-cover" />
+                </section/>
+            ) : null }
             <section class="w-full h-min px-6 py-9 sm:px-11 sm:py-[100px] flex flex-col gap-8" id="works">
                 <h2 class="text-black text-mh2 sm:text-h2 md:w-3/6 lg:w-full mt-6">More work</h2>
                 <div class="grid grid-cols-2 md:flex-row gap-5">

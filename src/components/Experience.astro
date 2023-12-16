@@ -5,7 +5,7 @@ const items = await Astro.glob('../pages/educations/*.md');
 ---
 
 <section class="w-full h-min px-6 py-9 sm:px-11 sm:py-12 flex flex-col md:flex-row lg:grid lg:grid-cols-2 gap-9" id="experience">
-    <h2 class="text-black text-mh2 sm:text-h2 font-normal sm:font-normal md:w-3/6 lg:w-full">Experience & Education</h2>
+    <h2 class="text-black text-mh2 sm:text-h2 md:w-3/6 lg:w-full">Experience & Education</h2>
     <div class="flex flex-col gap-5 sm:gap-9 w-full">
         {items.map((item, index) => (
             <div class="flex flex-col sm:flex-row gap-5">

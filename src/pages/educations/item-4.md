@@ -1,7 +1,8 @@
 ---
 
-dates: 'Feb 2022 - Now'
-where: 'KPMG'
-description: 'Designing with accessibility in mind ensures that digital products are usable by people of all abilities, enhancing usability and inclusivity.'
+dates: 'Sep 2018 - Jan 2022'
+where: 'Sidat - Software Programmer'
+description: 'Design, development, presentation, and application of PLC programs, including visualization (HMI), 
+for technical industry automatic devices. Application of software takes place worldwide.'
 
 ---

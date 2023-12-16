@@ -1,7 +1,8 @@
 ---
 
-dates: 'Feb 2022 - Now'
-where: 'KPMG'
-description: 'Designing with accessibility in mind ensures that digital products are usable by people of all abilities, enhancing usability and inclusivity.'
+dates: 'Jan 2021 - Jan 2022'
+where: 'Freelance - UX/UI Designer'
+description: 'Creating an intuitive and visually appealing user interfaces for various clients, conducting user research, developing wireframes, and delivering polished designs aligned with brand identities 
+and user needs.'
 
 ---

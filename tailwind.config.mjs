@@ -55,6 +55,17 @@ export default {
 			'xl': '1280px',
 			'2xl': '1536px',
 		},
+		backgroundSize: {
+			'auto': 'auto',
+			'cover': 'cover',
+			'contain': 'contain',
+			'100%': '100%',
+			'105%': '105%',
+			'150%': '150%',
+			'155%': '155%',
+			'180%': '180%',
+			'185%': '185%',
+		},
 		extend: {
 			lineHeight: {
 				'snug': '140%',

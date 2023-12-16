@@ -6,7 +6,6 @@ interface Props {
 const { top_url } = Astro.props;
 
 const email = "panravil@gmail.com";
-const ravil_link = 'http://';
 const pavel_link = 'http://';
 const artem_link = 'http://';
 const behance_link = 'https://www.behance.net/ravil-ai';
@@ -30,7 +29,7 @@ const cv_link = '../public/Ravil_CV.pdf';
 		<div class="flex flex-col sm:flex-row justify-between md:justify-start gap-7 lg:gap-12 w-full md:w-fit lg:w-full">
 			<div class="flex gap-2 text-left flex-col">
 				<p class="text-gray-200 leading-snug text-pn">Designed by</p>
-				<a href={ravil_link} target="_blank" rel="noopener noreferrer" class="text-white-200 leading-snug text-pm">Ravil Itikeev</a>
+				<a href={top_url} rel="noopener noreferrer" class="text-white-200 leading-snug text-pm">Ravil Itikeev</a>
 			</div>
 			<!-- <div class="flex gap-2 text-left flex-col">
 				<p class="text-gray-200 leading-snug text-pn">Developed by</p>

@@ -13,7 +13,7 @@ slug: 'work-1'
 index: 1
 # Challenge
 challenge_text: ["The primary project hurdle involved crafting an intuitive UX/UI for the entire application, prioritizing user-friendly design. The task encompassed ensuring 
-a seamless fusion of the platform's features with an optimal user experience, demanding meticulous attention to detail and thoughtful design decisions.", "Aligning the app's design with the established brand identity presented a challenge, requiring careful consideration of visual elements to maintain brand consistency. Meeting both user needs and the client's business goals through the design became a pivotal challenge, demanding a strategic approach to create a successful B2C mobile app."]
+a seamless fusion of the platform's features with an optimal user experience, demanding meticulous attention to detail and thoughtful design decisions."]
 challenge_image: '../public/works/work-1-placeholder-2.jpg'
 challenge_images: ['../public/works/work-1-placeholder-3.jpg', 
                    '../public/works/work-1-placeholder-4.jpg', 
